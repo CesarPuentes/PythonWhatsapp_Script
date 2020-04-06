@@ -66,5 +66,5 @@ telefonos_entry = Entry(textvariable = telefonos, width = "30")
 nombres_entry.place(x = 15, y = 100)
 telefonos_entry.place(x = 15, y = 180)
 
-register = Button(screen,text = "Register", width = "30", height = "2", bg = "grey", command = save_info)
+register = Button(screen,text = "Enviar!", width = "30", height = "2", bg = "grey", command = save_info)
 register.place(x = 15, y = 290)
